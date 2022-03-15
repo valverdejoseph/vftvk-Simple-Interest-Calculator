@@ -1,11 +1,16 @@
-body {background-color:black;font-family: Arial;color:white}
-h1{color:grey;font-family: Verdana;}
+body {background-color:black;font-family: Arial;color:white;}
+h1{color:grey;font-family: Verdana;text-align: center;}
 .maindiv{
     background-color: white;
     color: black;
     width: 300px;
     padding: 20px;
     border-radius: 25px;
-    align-content: center;
+    align-self: center;
+    justify-self: center;
+    text-align: left;
 }
-
+footer{text-align: left;}
+.input{
+    grid-template-columns: 1fr 1fr;
+}
